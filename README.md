@@ -38,20 +38,30 @@ npm start
 ```
 # Estado de funcionalidades
 
-| Función | Estado |
-|---|---|
-| Login | Listo |
-| Reportes | En progreso |
+| Modulo | Funcionalidad | Estado | 
+|---|---|---|
+Autenticacion | Registro y Login de usuarios | Listo
+Catalogo | Busqueda de libros por autor o titulo | Listo
+Prestamos | Reserva y devolucion de libros | En progreso
+Reportes | Historial de prestamos del usuario | Pendiente
 
 ## Pendientes
 
-- [x] Diseño de la base de datos
-- [ ] Pruebas unitarias
+- [x] Crear el esquema de la base de datos
+
+- [x] Configurar la API REST inicial
+
+- [ ] Implementar la pasarela para multas de devolucion
+
+- [ ] Realizar pruebas unitarias e integracion
 
 ## Arquitectura
 
 ```mermaid
-graph LR
-    A[Usuario] --> B[Frontend]
-    B --> C[API]
-    C --> D[(Base de datos)]
+graph TD
+    A[Usuario / Navegador] --> B[Interfaz Web Frontend]
+    B --> C[API Backend Node.js]
+    C --> D[(Base de Datos MySQL)]
+```
+## Contribuidores
+- Henry Mendoza
