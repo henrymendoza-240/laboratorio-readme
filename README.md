@@ -26,7 +26,7 @@ Su objetivo es facilitar el acceso al catalogo desde cualquier dispositivo.
 Ejecuta los siguientes comandos en la terminal para clonar e instalar el proyecto:
 
 ```bash
-git clone [https://github.com/henrymendoza-240/laboratorio-readme.git](https://github.com/TU-USUARIO/laboratorio-readme.git)
+git clone [https://github.com/henrymendoza-240/laboratorio-readme.git](https://github.com/henrymendoza-240/laboratorio-readme.git)
 cd laboratorio-readme
 npm install
 ```
